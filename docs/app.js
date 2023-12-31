@@ -84,6 +84,11 @@ function formatDate(dateString) {
   return date.toLocaleDateString("en-US", { timeZone: "UTC" });
 }
 
+// Length converter functions
+function lengthConverter(valNum) {
+  document.getElementById("outputMeters").innerHTML = (valNum / 0.0022046).toPrecision(4);
+} 
+
 // -------------
 // Call render on page load
 // -------------
