@@ -6,3 +6,7 @@ https://docs.gitlab.com/ee/user/project/pages/getting_started/pages_from_scratch
 
 Moved to github for easier pages deployment.
 - [ ] Will need to sort that out for the final apps.
+
+localStorage seems OK for settings key-value pairs (theme, default solvent, default sort)
+Client side storage options: https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API/Using_IndexedDB
+https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Client-side_web_APIs/Client-side_storage
