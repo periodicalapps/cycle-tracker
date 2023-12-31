@@ -1,0 +1,29 @@
+{
+    "name": "Cycle Tracker",
+    "short_name": "Cycles",
+    "description": "An secure, offline way to keep track of when TOM came by.",
+    "start_url" : "/",
+    "icons": [
+        {
+        "src": "circle.ico",
+        "sizes": "48x48"
+        },
+        {
+        "src": "icons/circle.svg",
+        "sizes": "72x72 96x96",
+        "purpose": "maskable"
+        },
+        {
+        "src": "icons/tire.svg",
+        "sizes": "128x128 256x256"
+        },
+        {
+        "src": "icons/wheel.svg",
+        "sizes": "512x512"
+        }
+    ],
+    "display": "standalone",
+    "background_color": "rgb(217, 212, 249)", 
+    "theme_color": "rgb(208, 188, 252)"
+  }
+  

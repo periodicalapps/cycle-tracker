@@ -12,4 +12,11 @@ Client side storage options: https://developer.mozilla.org/en-US/docs/Web/API/In
 https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Client-side_web_APIs/Client-side_storage
 
 
-To get the js and html working, needed the  <form id="new-period"> ID in there.
+To get the js and html working, needed the  <form id="new-period"> ID in there, but also get elements.
+
+Manifest: app-name.json file.
+
+Note: always save changes before checking effects. VSCode keeps them in the buffer.
+
+Start url in manifest could be a good way to setup changes. (tutorial/preferences
+"comments": "Match the background colour with the theme colour, so it loads seamlessly.",)
