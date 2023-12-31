@@ -20,3 +20,12 @@ Note: always save changes before checking effects. VSCode keeps them in the buff
 
 Start url in manifest could be a good way to setup changes. (tutorial/preferences
 "comments": "Match the background colour with the theme colour, so it loads seamlessly.",)
+
+The install event happens when the app is used for the first time, or when a new version of the service worker is detected by the browser. 
+
+Note: Updating VERSION is important when making changes to any application resource, including the CSS, HTML, and JS code, and image assets. The version number, or any change to the service worker file, is the only way to force an update of the app for your users.
+
+Hard browser refresh: On MacOS: Shift+Command+R.
+So to see updates, change the version number and hard refresh.
+Or:
+You can unregister a service worker by clicking on the unregister button in the browser developer tools. Hard refreshing the page will re-register the service worker and create a new cache.
