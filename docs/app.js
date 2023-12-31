@@ -3,7 +3,7 @@
 // -------------
 // Variable declarations
 // -------------
-const newPeriodFormEl = document.getElementsByTagName("form")[0];
+const newPeriodFormEl = document.getElementById("new-period");
 const startDateInputEl = document.getElementById("start-date");
 const endDateInputEl = document.getElementById("end-date");
 const pastPeriodContainer = document.getElementById("past-periods");

@@ -10,3 +10,6 @@ Moved to github for easier pages deployment.
 localStorage seems OK for settings key-value pairs (theme, default solvent, default sort)
 Client side storage options: https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API/Using_IndexedDB
 https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Client-side_web_APIs/Client-side_storage
+
+
+To get the js and html working, needed the  <form id="new-period"> ID in there.
